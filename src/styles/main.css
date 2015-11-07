@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.eot');
+  src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Lato-Regular.woff') format('woff'),
+  url('../fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato Black';
+  src: url('../fonts/Lato-Black.eot');
+  src: url('../fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Lato-Black.woff') format('woff'),
+  url('../fonts/Lato-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #2C3E50;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar {
+  background-color: #F0F2F2;
+  margin-bottom: 10px;
+}
+
+.logo {
+  font-family: "Lato Black"
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 10px 0 30px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.ui-select-multiple.ui-select-bootstrap {
+  height: auto;
+  padding: 7px 4px 3px 7px;
+}
+
+.btn-default, .btn-default:hover {
+  color: #00998B;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #2C3E50 !important;
+  border: none !important;
+  border-radius: 0px !important;
+  padding: 4px 28px;
+  font-size: 21px;
+}
+.btn-success:focus,
+.btn-success.focus, {
+  color: #fff;
+  background-color: #364C62 !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #364C62 !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+.btn-success:active,
+.btn-success.active {
+  color: #fff;
+  background-color: #2C3E50 !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #2C3E50;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #00998B;
+  background-color: transparent;
+}
+
+.frame {
+  background-color: #F0F2F2;
+  border: 1px solid #e7e7e7;
+}
+
+@media screen and (min-width: 768px) {
+  .frame {
+    padding-right: 60px;
+    padding-left: 40px;
+    padding-top: 48px;
+    padding-bottom: 18px;
+  }
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+}
+
+.btn-padding {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.green {
+  color: #00998B;
+}

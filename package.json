@@ -1,0 +1,15 @@
+{
+  "name": "angular-sms-notifier",
+  "private": true,
+  "version": "0.1.0",
+  "description": "An sms notifier with AngularJS and Nexmo",
+  "repository": "https://github.com/raedobh/angular-sms-notifier",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-express": "^1.4.1",
+    "grunt-open": "^0.2.3",
+    "grunt-wiredep": "^2.0.0",
+    "load-grunt-tasks": "^3.3.0"
+  }
+}

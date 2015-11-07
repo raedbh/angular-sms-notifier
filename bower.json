@@ -1,0 +1,25 @@
+{
+  "name": "angular-sms-notifier",
+  "version": "0.1.0",
+  "description": "An sms notifier with AngularJS and Nexmo",
+  "keywords": [
+    "angular",
+    "sms",
+    "nexmo",
+    "notify"
+  ],
+  "authors": [
+    "Raed Ben Hamouda"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/raedobh/angular-sms-notifier",
+  "dependencies": {
+    "angular": "~1.4.7",
+    "html5-boilerplate": "~5.2.0",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.7",
+    "ui-select": "angular-ui-select#~0.13.2",
+    "angular-cookies": "~1.4.7",
+    "angular-sanitize": "~1.4.7"
+  }
+}

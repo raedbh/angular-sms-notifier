@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SMS Notifier</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app/libs/html5-boilerplate/dist/css/normalize.css">
+    <link rel="stylesheet" href="app/libs/html5-boilerplate/dist/css/main.css">
+    <link rel="stylesheet" href="app/libs/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="app/libs/ui-select/dist/select.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="app/libs/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+  <body ng-app="asnApp">
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+      <div ng-include="'app/views/header.html'"></div>
+      <div ng-view></div>
+    </div>
+
+    <script src="app/libs/jquery/dist/jquery.js"></script>
+    <script src="app/libs/angular/angular.js"></script>
+    <script src="app/libs/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="app/libs/angular-route/angular-route.js"></script>
+    <script src="app/libs/ui-select/dist/select.js"></script>
+    <script src="app/libs/angular-cookies/angular-cookies.js"></script>
+    <script src="app/libs/angular-sanitize/angular-sanitize.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/constants.js"></script>
+    <script src="app/controllers/notifyController.js"></script>
+    <script src="app/controllers/settingsController.js"></script>
+    <script src="app/services/smsService.js"></script>
+    <script src="app/services/contactsService.js"></script>
+  </body>
+</html>
